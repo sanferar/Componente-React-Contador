@@ -1,0 +1,21 @@
+button {
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    margin: 1em;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+
+button:hover{
+    border-radius: 50%;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+    transition: all 1s;
+}
